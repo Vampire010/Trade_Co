@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Drawing on Canvas</title>
+</head>
+<script>
+	window.onload = function() 
+	{
+		var canvas = document.getElementById("myCanvas");
+		var context = canvas.getContext("2d");
+		context.rect(50, 50, 200, 100);
+		context.fillStyle = "#FB8B89";
+		context.fill();
+		context.lineWidth = 5;
+		context.strokeStyle = "black";
+		context.stroke();
+	};
+</script>
+
+<body>
+	<canvas id="myCanvas" width="300" height="200" ></canvas>
+</body>
+</html>

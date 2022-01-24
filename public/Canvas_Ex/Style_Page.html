@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script>
+window.onload = function() {
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+context.lineWidth = 5;
+context.strokeStyle = "orange";
+context.moveTo(50, 150);
+context.lineTo(250, 50);
+context.stroke();
+};
+</script>
+<body>
+	<canvas id="myCanvas" width="300" height="200" ></canvas>
+
+</body>
+</html>

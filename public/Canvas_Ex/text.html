@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script>
+	window.onload = function() 
+	{
+		var canvas = document.getElementById("myCanvas");
+		var context = canvas.getContext("2d");
+		context.font = "bold 32px Arial";
+		context.textAlign = "center";
+		context.textBaseline = "middle";
+		context.fillStyle = "orange";
+		context.fillText("Hello World!", 150, 100);
+	};
+</script>
+<body>
+	<canvas id="myCanvas" width="300" height="200" ></canvas>
+
+</body>
+</html>
